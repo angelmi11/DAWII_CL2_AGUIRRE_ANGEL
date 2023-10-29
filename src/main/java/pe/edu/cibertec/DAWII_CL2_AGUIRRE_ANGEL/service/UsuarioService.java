@@ -37,4 +37,5 @@ public class UsuarioService {
         usuario.setRoles(new HashSet<>(Arrays.asList(usuarioRol)));
         return usuarioRepository.save(usuario);
     }
+
 }
